@@ -4,6 +4,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,10 +16,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         WebView w = (WebView) findViewById(R.id.webview_element);
+        w.setWebViewClient(new WebViewClient());
         w.loadUrl(server_ip);
         w.getSettings().setJavaScriptEnabled(true);
         w.getSettings().setDisplayZoomControls(false);
         w.getSettings().setAllowFileAccess(true);
+        w.getSettings().setGeolocationEnabled(true);
+        w.getSettings().setCacheMode(-1);
 
 
     }
