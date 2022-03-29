@@ -10,7 +10,8 @@ import android.webkit.WebViewClient;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    String server_ip="https://comfytronics.in/";
+    String server_ip = "https://comfytronics.in/";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         w.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         w.getSettings().setDomStorageEnabled(true);
 
-
     }
+
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         WebView w = (WebView) findViewById(R.id.webview_element);
@@ -35,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
             switch (keyCode) {
                 case KeyEvent.KEYCODE_BACK:
                     if (w.canGoBack()) {
-                        if(w.getUrl().equals(server_ip)){}
-                        else {
+                        if (w.getUrl().equals(server_ip)) {
+                        } else {
                             w.goBack();
                         }
                     } else {
