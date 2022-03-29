@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         w.getSettings().setDisplayZoomControls(false);
         w.getSettings().setAllowFileAccess(true);
         w.getSettings().setGeolocationEnabled(true);
-        w.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+//        w.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         w.getSettings().setDomStorageEnabled(true);
 
     }
