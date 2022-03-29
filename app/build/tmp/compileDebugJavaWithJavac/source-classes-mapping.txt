@@ -1,0 +1,4 @@
+com/example/flutech_android_app/BuildConfig.java
+ com.example.flutech_android_app.BuildConfig
+com/example/flutech_android_app/MainActivity.java
+ com.example.flutech_android_app.MainActivity

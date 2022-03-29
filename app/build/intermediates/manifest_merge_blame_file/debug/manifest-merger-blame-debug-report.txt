@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutech_android_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:7:5-75
+14-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:7:22-73
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:8:5-78
+15-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:9:5-64
+16-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:9:22-62
+17
+18    <application
+18-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:11:5-27:19
+19        android:allowBackup="true"
+19-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:12:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\Anand\.gradle\caches\transforms-2\files-2.1\9f4cd02ec375ac03249aba089dd3518f\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:13:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:14:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:15:9-54
+26        android:screenOrientation="portrait"
+26-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:17:9-45
+27        android:supportsRtl="true"
+27-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:16:9-35
+28        android:theme="@style/Theme.Flutech_Android_App"
+28-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:19:9-57
+29        android:usesCleartextTraffic="true" >
+29-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:18:9-44
+30        <activity android:name="com.example.flutech_android_app.MainActivity" >
+30-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:20:9-26:20
+30-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:20:19-47
+31            <intent-filter>
+31-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:22:17-69
+32-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:24:17-77
+34-->C:\Users\Anand\Desktop\work\comfytronics\android-app\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
