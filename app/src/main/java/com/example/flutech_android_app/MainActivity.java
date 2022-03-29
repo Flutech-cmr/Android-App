@@ -3,13 +3,14 @@ package com.example.flutech_android_app;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    String server_ip="http://164.52.221.158:5050/";
+    String server_ip="https://164.52.221.158:5050/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         w.getSettings().setDisplayZoomControls(false);
         w.getSettings().setAllowFileAccess(true);
         w.getSettings().setGeolocationEnabled(true);
-        w.getSettings().setCacheMode(-1);
+        w.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
 
 
     }
